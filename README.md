@@ -18,7 +18,7 @@
 - Download and install any API testing tool. E.g [PostMan](https://www.postman.com/)
 - Create database in `PostgreSQL`, keep your `username` and `password` - you would need it later.
 - Open your IDE and `create new project` from the `source code`.
-- In `src/main/resources/application.properties` change `username`, `password` and `database` url to your own
+- In `src/main/resources/application.properties` `uncomment the contents` of the file and  change `username`, `password` and `database` url to your own
   credentials which you got after creating the `database` in `PostgreSQL`.
 - Once you opened the project - run `PaymentSystemApplication.java` in order to start the application
 - Go to Postman and test the `endpoints` described below.
